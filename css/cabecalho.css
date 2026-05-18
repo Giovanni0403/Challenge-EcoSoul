@@ -19,12 +19,12 @@
 
 @media (min-width: 320px) {
   .cabecalho {
-    background: #11cbd1;
+    background: #1114d1;
     background: linear-gradient(
       358deg,
-      rgb(0, 153, 255) 6%,
-      rgb(28, 89, 223) 35%,
-      rgb(2, 45, 185) 100%
+      rgb(0, 255, 115) 6%,
+      rgb(58, 255, 137) 35%,
+      rgb(0, 255, 89) 100%
     );
     padding: 2rem;
   }

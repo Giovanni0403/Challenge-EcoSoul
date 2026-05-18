@@ -4,7 +4,7 @@
     color: var(--text-title);
     text-transform: uppercase;
     font-size: 4.0rem;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 footer{
     width: 100%;
@@ -50,5 +50,5 @@ select option {
     color: var(--text-title);
     text-transform: uppercase;
     font-size: 2.0rem;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
