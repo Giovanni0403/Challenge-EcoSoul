@@ -22,9 +22,9 @@
     background: #1114d1;
     background: linear-gradient(
       358deg,
-      rgb(0, 255, 115) 6%,
-      rgb(58, 255, 137) 35%,
-      rgb(0, 255, 89) 100%
+      rgb(0, 76, 255) 6%,
+      rgb(58, 137, 255) 35%,
+      rgb(0, 195, 255) 100%, 
     );
     padding: 2rem;
   }

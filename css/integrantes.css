@@ -1,6 +1,6 @@
 .card {
   width: 300px;                 /* largura do quadradinho */
-  background: rgb(0, 0, 0); /* fundo translúcido */
+  background: rgb(255, 255, 255); /* fundo translúcido */
   border-radius: 10px;          /* cantos arredondados */
   padding: 15px;                /* espaço interno */
   margin: 20px auto;            /* centraliza e dá espaço entre os cards */
@@ -16,13 +16,13 @@
 
 .card_container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);    /* sempre 2 colunas */
+    grid-template-columns: repeat(4, 1fr);    /* sempre 2 colunas */
     gap: 20px;                                /* espaço entre os cards */
     justify-items: center;                   /* centraliza os cards em cada coluna */
 }
 
 .card:hover{
-    box-shadow: 1px 1px 20px rgb(141, 1, 255);  
+    box-shadow: 1px 1px 20px rgb(0, 30, 255);  
 
 }
 
