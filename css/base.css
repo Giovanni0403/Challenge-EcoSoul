@@ -64,7 +64,7 @@ select option {
 }
 
 main {
-    background-color: black;
+    background-color:rgb(31, 158, 166);
     color: var(--text-main);
     width: 100%;
     height: auto;
