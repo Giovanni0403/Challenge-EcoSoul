@@ -7,15 +7,6 @@
     color: rgb(255, 255, 255);
 }
 
-p.fundo__description {
-    text-align: center;
-    font-size: var(--text-main);
-    color: var(--text-main);
-    font-size: 1.5rem;
-    color: rgb(255, 255, 255);
-    margin-top: 20px;
-}
-
 footer{
     width: 100%;
     height: 80px;
@@ -35,32 +26,16 @@ ul{
 
 /* Estilos para os elementos de formulário */
 input, select, textarea, label, legend{
-  font-size: 21px;
+  font-size: 25px;
 }
+
 .texto-genero {
     font-size: 23px;
-}
-select {
-    width: 200px;
-}
-select option {
-    max-width: 100px;
-    overflow: hidden;
-    text-overflow: ellipsis;
 }
 
 .informacoes-contato {
     display: flex;
     gap: 250px;
-}
-
-.fundo__title_h2 {
-    text-align: center;
-    font-size: var(--titulo-main);
-    color: var(--text-title);
-    text-transform: uppercase;
-    font-size: 2.0rem;
-    color: rgb(255, 255, 255);
 }
 
 main {
@@ -69,4 +44,46 @@ main {
     width: 100%;
     height: auto;
     padding: 2rem;
+}
+
+.h2_geral{
+    text-align: center;
+    font-size: var(--titulo-main);
+    color: var(--text-title);
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    color: rgb(255, 255, 255);
+}
+.h3_geral{
+    font-size: 50px;
+}
+.h4_geral{
+    font-size: 30px;
+}
+.p_geral{
+    font-size: 25px;
+    color: white;
+}
+
+.lista {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lista_pagina {
+  padding: 10px 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  color: #e8f5ec;
+  font-size: 25px;
+}
+
+.lista_pagina:last-child {
+  border-bottom: none;
+}
+
+.lista_pagina:hover {
+  background-color: rgba(31, 158, 166, 0.15);
+  padding-left: 22px;
+  transition: all 0.2s;
 }
