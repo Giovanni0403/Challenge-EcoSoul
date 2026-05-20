@@ -18,13 +18,13 @@ footer{
 }
 
 ul{
-    list-style-type: none; /* Remove a bolinha */
-    padding: 0;            /* Remove o recuo padrão da lista */
-    margin: 0;             /* Remove as margens */
+    list-style-type: none;
+    padding: 0;           
+    margin: 0;           
     font-size: 22px;
 }
 
-/* Estilos para os elementos de formulário */
+
 input, select, textarea, label, legend{
   font-size: 25px;
 }

@@ -1,11 +1,11 @@
 .card {
-  width: 300px;                 /* largura do quadradinho */
-  background: rgb(255, 255, 255); /* fundo translúcido */
-  border-radius: 10px;          /* cantos arredondados */
-  padding: 15px;                /* espaço interno */
-  margin: 20px auto;            /* centraliza e dá espaço entre os cards */
-  box-shadow: 0 4px 10px rgba(0,0,0,0.4);   /* sombra */
-  text-align: center;           /* centraliza conteúdo dentro do card */
+  width: 300px;                 
+  background: rgb(255, 255, 255); 
+  border-radius: 10px;          
+  padding: 15px;                
+  margin: 20px auto;            
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+  text-align: center;           
 }
 
 .card p {
@@ -16,20 +16,20 @@
 
 .card_container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);    /* sempre 2 colunas */
-    gap: 20px;                                /* espaço entre os cards */
-    justify-items: center;                   /* centraliza os cards em cada coluna */
+    grid-template-columns: repeat(4, 1fr);  
+    gap: 20px;                               
+    justify-items: center;                   
 }
 
 .card:hover{
-    box-shadow: 1px 1px 20px rgb(174, 0, 255);  
+    box-shadow: 1px 1px 20px rgb(0, 4, 255);  
 
 }
 
 .card img {
   width: 100%;
-  height: auto;         /* altura automática, sem corte */
-  object-fit: contain;  /* mostra a imagem completa */
+  height: auto;       
+  object-fit: contain;  
   border-radius: 10px;
   display: block;
 }
