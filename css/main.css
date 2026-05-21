@@ -1,3 +1,4 @@
+/* Arquivo central que importa todos os estilos do projeto */
 @import url('./base.css');
 @import url('./cabecalho.css');
 @import url('./integrantes.css');

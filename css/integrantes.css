@@ -1,3 +1,4 @@
+/* Card individual de cada integrante */
 .card {
   width: 300px;                 
   background: rgb(255, 255, 255); 
@@ -8,12 +9,14 @@
   text-align: center;           
 }
 
+/* Texto dentro dos cards */
 .card p {
   margin-top: 10px;
   font-size: 1.7rem;
   color: #000;
 }
 
+/* Grade com todos os integrantes */
 .card_container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);  
@@ -21,11 +24,13 @@
     justify-items: center;                   
 }
 
+/* Destaque visual ao passar o mouse */
 .card:hover{
     box-shadow: 1px 1px 20px rgb(0, 4, 255);  
 
 }
 
+/* Foto do integrante */
 .card img {
   width: 100%;
   height: auto;       
@@ -34,6 +39,7 @@
   display: block;
 }
 
+/* Titulos internos dos cards */
 .card h3 {
   padding: 10px;
   font-size: 2.0rem;

@@ -1,24 +1,10 @@
-table {
-  width: 25%;
+/* Cards de destaque da pagina inicial */
+.destaque-card h4 {
+  font-size: clamp(1.25rem, 3vw, 1.7rem);
+  margin: 1rem 0 0.5rem;
+}
+
+.destaque-card p {
+  color: #0d2225;
   margin: 0;
-  border-collapse: collapse;
-  background-color: #1a1a2e;
-}
-
-th {
-  text-align: left;
-  padding: 14px 20px;
-  color: #e8f5ec;
-  font-weight: bold;
-  border-bottom: 2px solid #1F9EA6;
-}
-
-td {
-  padding: 14px 20px;
-  color: #a0c4b0;
-  border-bottom: 1px solid #2a2a3e;
-}
-
-tr:hover {
-  background-color: rgb(31, 158, 166);
 }

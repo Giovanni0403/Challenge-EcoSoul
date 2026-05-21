@@ -1,5 +1,6 @@
+// Animacoes de entrada dos blocos principais.
 const elementosAnimados = document.querySelectorAll(
-  '.card, .p_geral, .h2_geral, .h3_geral, .h4_geral, table, .lista_pagina, fieldset, .metrica-card, .destaque-card, .passo-card, .impacto-section, .impacto-dado'
+  '.card, .card-app, .p_geral, .h2_geral, .h3_geral, .h4_geral, table, .lista_pagina, fieldset, .metrica-card, .destaque-card, .passo-card, .impacto-section, .impacto-dado, .solucao-card'
 );
 
 if ('IntersectionObserver' in window) {
@@ -19,6 +20,7 @@ if ('IntersectionObserver' in window) {
   elementosAnimados.forEach((elemento) => elemento.classList.add('aparecer'));
 }
 
+// Botao fixo para voltar ao topo da pagina.
 const botaoTopo = document.createElement('button');
 botaoTopo.type = 'button';
 botaoTopo.className = 'botao-topo';
@@ -37,6 +39,7 @@ botaoTopo.addEventListener('click', () => {
   });
 });
 
+// Feedback visual dos campos do formulario.
 const camposFormulario = document.querySelectorAll('form input, form textarea, form select');
 
 camposFormulario.forEach((campo) => {
@@ -55,6 +58,7 @@ camposFormulario.forEach((campo) => {
   });
 });
 
+// Animacao numerica para metricas, quando existirem na pagina.
 const numerosMetricas = document.querySelectorAll('[data-count]');
 
 function animarContador(elemento) {
@@ -95,6 +99,7 @@ if ('IntersectionObserver' in window) {
   });
 }
 
+// Mascara simples para telefone brasileiro.
 const campoTelefone = document.querySelector('input[type="tel"]');
 
 if (campoTelefone) {

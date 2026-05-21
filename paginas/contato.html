@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../css/main.css"/>
 </head>
 <body>
+    <!-- Cabecalho com logo e menu principal -->
     <header class="cabecalho">
       <input type="checkbox" id="menu-toggle" class="menu-toggle">
       <label for="menu-toggle" class="menu-hamburguer" aria-label="Abrir menu">
@@ -16,9 +17,11 @@
       </label>
       <nav class="cabecalho__navbar">
         <ul class="cabecalho__lista">
-          <img src="../img/logo.png" class="logo" alt="img">
+          <li class="cabecalho__logo-item">
+            <img src="../img/logo.png" class="logo" alt="Logo EcoSoul">
+          </li>
           <li class="cabecalho__list-item">
-            <a class="cabecalho__link cabecalho__link--active" href="../index.html">Home</a>
+            <a class="cabecalho__link" href="../index.html">Home</a>
           </li>
           <li class="cabecalho__list-item">
             <a class="cabecalho__link" href="../paginas/integrante.html">Integrantes</a>
@@ -33,14 +36,15 @@
             <a class="cabecalho__link" href="../paginas/faq.html">Faq</a>
           </li>
          <li class="cabecalho__list-item">
-            <a class="cabecalho__link" href="../paginas/contato.html">Contato</a>
+            <a class="cabecalho__link cabecalho__link--active" href="../paginas/contato.html">Contato</a>
           </li>
         </ul>
       </nav>
     </header>
     <main>
       <h1 class="fundo__title">Contato</h1>
-      <form name="contato" action="contato.html" method="get">
+      <!-- Formulario principal de contato -->
+      <form name="contato" action="#" method="get" novalidate>
         <fieldset>
           <legend>Dados de Contato</legend>
 
@@ -62,10 +66,14 @@
 
           <input type="submit" value="Enviar">
           <input type="reset" value="Limpar">
+          <p id="feedbackContato" class="feedback-contato" aria-live="polite"></p>
           
 
         </fieldset>
-        <h2 class="fundo__title_h2">Informações para contato</h2>
+      </form>
+      <section aria-labelledby="titulo-contatos">
+        <!-- Informacoes diretas da equipe -->
+        <h2 id="titulo-contatos" class="fundo__title_h2">Informações para contato</h2>
         <div class="informacoes-contato">
           <div>
             <p>Nome: Giovanni Lopez Zavam</p>
@@ -89,8 +97,9 @@
             <p>Email: rm569741@fiap.com.br</p>
           </div>
         </div>
-      </form>
+      </section>
     </main>
+    <!-- Rodape do projeto -->
     <footer>
     <p>2025 EcoSoul — Todos os direitos reservados. &copy; - Por todos os integrantes da equipe</p>
     </footer>

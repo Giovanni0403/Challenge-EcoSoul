@@ -1,10 +1,51 @@
+/* Grade das telas demonstrativas do app */
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr; 
   gap: 20px;
 }
 
-.card {
+/* Blocos que explicam problema, solucao e resultado */
+.solucao-resumo {
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 auto 2rem;
+  width: min(100%, 1180px);
+}
+
+.solucao-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.16);
+  color: #0d2225;
+  padding: 1.5rem;
+}
+
+.solucao-card span {
+  align-items: center;
+  background-color: #1f9ea6;
+  border-radius: 50%;
+  color: #ffffff;
+  display: inline-flex;
+  font-weight: 800;
+  height: 48px;
+  justify-content: center;
+  width: 48px;
+}
+
+.solucao-card h2 {
+  font-size: clamp(1.25rem, 3vw, 1.7rem);
+  margin: 1rem 0 0.5rem;
+}
+
+.solucao-card p {
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  line-height: 1.55;
+}
+
+/* Cards especificos da pagina App */
+.card-app {
   display: flex;
   flex-direction: column; 
   align-items: center;
@@ -14,8 +55,9 @@
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
-.card img {
+.card-app img {
   max-width: 350px; 
+  width: 100%;
   border-radius: 8px;
   margin-bottom: 15px;
 }

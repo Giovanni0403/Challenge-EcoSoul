@@ -47,7 +47,7 @@ paginas/
 app.html
 contato.html
 faq.html
-Integrante.html
+integrante.html
 sobre.html
 index.html
 README.md
@@ -96,7 +96,7 @@ css/responsive.css
 - RM: 571403
 - Turma: 1TDSPH
 - GitHub: <https://github.com/Giovanni0403>
-- LinkedIn: preencher link
+- LinkedIn: nao informado
 
 ### Murilo Martins de Campos
 

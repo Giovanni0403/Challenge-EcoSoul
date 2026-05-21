@@ -1,3 +1,4 @@
+/* Regras globais de responsividade e prevencao de overflow */
 * {
   box-sizing: border-box;
 }
@@ -52,6 +53,7 @@ footer {
   text-align: center;
 }
 
+/* Cabecalho responsivo */
 .cabecalho {
   padding: clamp(1rem, 3vw, 2rem);
   position: relative;
@@ -69,6 +71,14 @@ footer {
 
 .cabecalho__list-item {
   margin: 0;
+}
+
+.cabecalho__logo-item {
+  align-items: center;
+  display: flex;
+  flex: 0 1 100%;
+  justify-content: center;
+  list-style: none;
 }
 
 .cabecalho__link {
@@ -113,25 +123,30 @@ table {
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 }
 
-.card img {
+.card img,
+.card-app img {
   width: 100%;
   height: auto;
 }
 
-.card p {
+.card p,
+.card-app p {
   font-size: clamp(1rem, 2.5vw, 1.7rem);
 }
 
-.card h2 {
+.card h2,
+.card-app h2 {
   font-size: clamp(1.15rem, 3vw, 1.5rem);
   overflow-wrap: anywhere;
 }
 
-.card h3 {
+.card h3,
+.card-app h3 {
   font-size: clamp(1.25rem, 3vw, 2rem);
 }
 
-.card li {
+.card li,
+.card-app li {
   font-size: clamp(0.95rem, 2vw, 1.2rem);
   overflow-wrap: anywhere;
 }
@@ -192,6 +207,7 @@ textarea {
   padding: clamp(2rem, 7vw, 5rem) 0;
 }
 
+/* Blocos reutilizaveis em grids */
 .metricas,
 .destaques-grid,
 .passos-grid,
@@ -213,6 +229,7 @@ textarea {
 }
 
 .metrica-card,
+/* Estados interativos e animacoes visuais */
 .destaque-card,
 .passo-card,
 .beneficios-grid .lista_pagina,
@@ -253,14 +270,19 @@ fieldset,
 .destaque-card,
 .passo-card,
 .beneficios-grid .lista_pagina,
-.card {
+.card,
+.card-app,
+fieldset,
+.solucao-card,
+.fluxo-solucao {
   transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
 }
 
 .destaque-card:hover,
 .passo-card:hover,
 .beneficios-grid .lista_pagina:hover,
-.card:hover {
+.card:hover,
+.card-app:hover {
   border-color: #1f9ea6;
   box-shadow: 0 16px 36px rgba(0, 0, 0, 0.22);
   transform: translateY(-6px);
@@ -392,6 +414,7 @@ textarea:focus {
 }
 
 .card,
+.card-app,
 .p_geral,
 .h2_geral,
 .h3_geral,
@@ -403,7 +426,8 @@ fieldset,
 .destaque-card,
 .passo-card,
 .impacto-section,
-.impacto-dado {
+.impacto-dado,
+.solucao-card {
   opacity: 0;
   transform: translateY(28px);
   transition: opacity 0.6s ease, transform 0.6s ease;
@@ -454,6 +478,29 @@ fieldset,
   outline: none;
 }
 
+.feedback-contato {
+  border-radius: 8px;
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  font-weight: 700;
+  margin: 1rem 0 0;
+  padding: 0.9rem 1rem;
+}
+
+.feedback-contato:empty {
+  display: none;
+}
+
+.feedback-contato--sucesso {
+  background-color: rgba(31, 158, 166, 0.16);
+  color: #0f5f65;
+}
+
+.feedback-contato--erro {
+  background-color: rgba(255, 77, 77, 0.14);
+  color: #a82a2a;
+}
+
+/* Menu hamburguer para mobile e tablet */
 @media (max-width: 1023px) {
   .cabecalho {
     min-height: 92px;
@@ -549,12 +596,21 @@ fieldset,
 
   .logo {
     width: min(220px, calc(100vw - 120px));
-    flex-basis: auto;
     margin-left: 0;
     margin-right: auto;
   }
+
+  .cabecalho__logo-item {
+    flex-basis: auto;
+    margin-right: auto;
+  }
+
+  .solucao-resumo {
+    grid-template-columns: 1fr;
+  }
 }
 
+/* Ajustes para telas pequenas */
 @media (max-width: 767px) {
   .metricas,
   .impacto-section {
@@ -579,6 +635,10 @@ fieldset,
     grid-template-columns: 1fr;
   }
 
+  .solucao-resumo {
+    grid-template-columns: 1fr;
+  }
+
   fieldset {
     padding: 1rem;
   }
@@ -597,6 +657,7 @@ fieldset,
   }
 }
 
+/* Ajustes para desktop */
 @media (min-width: 1024px) {
   .cabecalho {
     background-color: #ffffff;
@@ -620,10 +681,13 @@ fieldset,
   }
 
   .logo {
-    flex-basis: auto;
     width: 260px;
     height: auto;
     margin-right: 1.5rem;
+  }
+
+  .cabecalho__logo-item {
+    flex: 0 0 auto;
   }
 }
 

@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="./css/main.css"/>
 </head>
 <body>
+    <!-- Cabecalho com logo e menu principal -->
     <header class="cabecalho">
       <input type="checkbox" id="menu-toggle" class="menu-toggle">
       <label for="menu-toggle" class="menu-hamburguer" aria-label="Abrir menu">
@@ -16,7 +17,9 @@
       </label>
       <nav class="cabecalho__navbar">
         <ul class="cabecalho__lista">
-          <img src="./img/logo.png" class="logo" alt="img">
+          <li class="cabecalho__logo-item">
+            <img src="./img/logo.png" class="logo" alt="Logo EcoSoul">
+          </li>
           <li class="cabecalho__list-item">
             <a class="cabecalho__link cabecalho__link--active" href="./index.html">Home</a>
           </li>
@@ -39,35 +42,34 @@
       </nav>
     </header>
     <main>
+      <!-- Apresentacao inicial da proposta -->
       <h1 class="fundo__title">Cada quil&ocirc;metro sustent&aacute;vel vira recompensa.</h1>
       <h2 class="h2_geral">Use transporte p&uacute;blico, ganhe pontos, cashback e benef&iacute;cios reais. A EcoSoul transforma seu trajeto do dia a dia em impacto ambiental positivo.</h2>
-      <h3 class="h3_geral">Quatro cards lado a lado com destaques do projeto:</h3>
-      <table>
-        <thead>
-            <tr>
-              <th>Destaque</th>
-              <th>Descri&ccedil;&atilde;o</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>CO2 abaixo</td>
-              <td>Emiss&otilde;es evitadas por viagem</td>
-            </tr>
-            <tr>
-              <td>5 Camadas</td>
-              <td>De valida&ccedil;&atilde;o antifraude</td>
-            </tr>
-            <tr>
-              <td>100%</td>
-              <td>Pelo smartphone, sem burocracia</td>
-            </tr>
-            <tr>
-              <td>ESG</td>
-              <td>Parcerias com empresas sustent&aacute;veis</td>
-            </tr>
-        </tbody>
-    </table>
+      <h3 class="h3_geral">Destaques do projeto</h3>
+      <!-- Cards com os principais diferenciais da EcoSoul -->
+      <section class="destaques-grid" aria-label="Destaques da EcoSoul">
+        <article class="destaque-card">
+          <span class="icone-card">CO2</span>
+          <h4>CO2 abaixo</h4>
+          <p>Emiss&otilde;es evitadas por viagem usando transporte p&uacute;blico.</p>
+        </article>
+        <article class="destaque-card">
+          <span class="icone-card">5x</span>
+          <h4>5 camadas</h4>
+          <p>Valida&ccedil;&atilde;o antifraude com GPS, velocidade, padr&atilde;o de rota e IA.</p>
+        </article>
+        <article class="destaque-card">
+          <span class="icone-card">APP</span>
+          <h4>100% digital</h4>
+          <p>Controle do trajeto, pontua&ccedil;&atilde;o e recompensas direto pelo smartphone.</p>
+        </article>
+        <article class="destaque-card">
+          <span class="icone-card">ESG</span>
+          <h4>Parcerias ESG</h4>
+          <p>Benef&iacute;cios conectados a empresas e iniciativas sustent&aacute;veis.</p>
+        </article>
+      </section>
+    <!-- Passo a passo de uso do aplicativo -->
     <h3 class="h3_geral">Simples como abrir um app.</h3>
     <h4 class="h4_geral">Voc&ecirc; n&atilde;o precisa de nada al&eacute;m do seu celular para come&ccedil;ar.</h4>
     <p class="p_geral">01 - Inicie o trajeto
@@ -80,6 +82,7 @@
     Troque seus pontos por recarga de transporte, cashback, descontos na conta de luz e muito mais.</p>
     <h3 class="h3_geral">O que voc&ecirc; pode ganhar</h3>
     <h4 class="h4_geral">Lista de benef&iacute;cios em cards pequenos:</h4>
+    <!-- Beneficios que podem ser resgatados com os pontos -->
     <ul class="lista">
       <li class="lista_pagina">&#128652; Recarga de transporte p&uacute;blico</li>
       <li class="lista_pagina">&#128184; Cashback</li>
@@ -94,10 +97,10 @@
     <h3 class="h3_geral">Pronto para transformar seus trajetos?</h3>
     <p class="p_geral">Fa&ccedil;a parte da EcoSoul e comece a ganhar recompensas enquanto cuida do planeta.</p>
     </main>
+  <!-- Rodape do projeto -->
   <footer>
     <p>2025 EcoSoul - Todos os direitos reservados. &copy; - Por todos os integrantes da equipe</p>
   </footer>
-  <script src="./js/contato.js"></script>
   <script src="./js/interacoes.js"></script>
 </body>
 </html>
