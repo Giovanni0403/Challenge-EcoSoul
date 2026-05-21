@@ -96,7 +96,7 @@ css/responsive.css
 - RM: 571403
 - Turma: 1TDSPH
 - GitHub: <https://github.com/Giovanni0403>
-- LinkedIn: nao informado
+- LinkedIn: <https://www.linkedin.com/in/giovanni-lopez-zavam-399a04410/>
 
 ### Murilo Martins de Campos
 
