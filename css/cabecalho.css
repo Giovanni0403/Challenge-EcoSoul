@@ -17,30 +17,6 @@
   justify-content: center;
 }
 
-@media (min-width: 320px) {
-  .cabecalho {
-    background:rgb(255, 255, 255);
-    background: linear-gradient(
-      358deg,
-      rgb(0, 0, 0) 6%,
-      rgb(0, 0, 0) 35%,
-      rgb(0, 0, 0) 100%, 
-    );
-    padding: 2rem;
-  }
-
-  .cabecalho__list-item {
-    margin: 0 2rem;
-  }
-}
-
-@media (min-width: 768px) {
-  .cabecalho__list-item {
-    margin: 0 3rem;
-    font-size: 2.5rem;
-  }
-}
-
 .cabecalho__link{
     color: #000000;
 }

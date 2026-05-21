@@ -8,6 +8,12 @@
 </head>
 <body>
     <header class="cabecalho">
+      <input type="checkbox" id="menu-toggle" class="menu-toggle">
+      <label for="menu-toggle" class="menu-hamburguer" aria-label="Abrir menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
       <nav class="cabecalho__navbar">
         <ul class="cabecalho__lista">
           <img src="../img/logo.png" class="logo" alt="img">
@@ -47,61 +53,12 @@
           <label for="idComercial">Telefone:</label>
           <input id="idComercial" type="tel" name="tcomercial" required  ><br><br>
 
-          <label for="estado">Estado:</label>
-          <select id="estado" name="estado" size="1" required autocomplete="off">
-              <option value="">Selecione...</option>
-              <option value="">Exterior</option>
-              <option value="AC">Acre</option>
-              <option value="AL">Alagoas</option>
-              <option value="AP">Amapá</option>
-              <option value="AM">Amazonas</option>
-              <option value="BA">Bahia</option>
-              <option value="CE">Ceará</option>
-              <option value="DF">Distrito Federal</option>
-              <option value="ES">Espírito Santo</option>
-              <option value="GO">Goiás</option>
-              <option value="MA">Maranhão</option>
-              <option value="MT">Mato Grosso</option>
-              <option value="MS">Mato Grosso do Sul</option>
-              <option value="MG">Minas Gerais</option>
-              <option value="PA">Pará</option>
-              <option value="PB">Paraíba</option>
-              <option value="PR">Paraná</option>
-              <option value="PE">Pernambuco</option>
-              <option value="PI">Piauí</option>
-              <option value="RJ">Rio de Janeiro</option>
-              <option value="RN">Rio Grande do Norte</option>
-              <option value="RS">Rio Grande do Sul</option>
-              <option value="RO">Rondônia</option>
-              <option value="RR">Roraima</option>
-              <option value="SC">Santa Catarina</option>
-              <option value="SP">São Paulo</option>
-              <option value="SE">Sergipe</option>
-              <option value="TO">Tocantins</option>
-          </select><br><br>
-
-          <label for="idNasc">Data de Nascimento:</label>
-          <input id="idNasc" type="date" name="dnasc" required autocomplete="off"><br><br>
-
-          <label>Gênero:</label><br>
-          <input type="radio" name="genero" value="masculino"> <label class="texto-genero">Masculino</label>
-          <input type="radio" name="genero" value="feminino"> <label class="texto-genero">Feminino</label>
-          <input type="radio" name="genero" value="outro"> <label class="texto-genero">Outro</label><br><br>
-
-          <label for="cep">CEP:</label>
-          <input id="cep" type="text" name="cep" maxlength="9" placeholder="00000-000" onblur="buscarCep(this.value)" autocomplete="off"><br><br>
-
-          <label for="endereco">Endereço:</label>
-          <input id="endereco" type="text" name="endereco" autocomplete="off"><br><br>
-          <label for="cidade">Cidade:</label>
-          <input id="cidade" type="text" name="cidade" autocomplete="off"><br><br>
+          <label for="mensagem">Como posso te ajudar?</label><br>
+          <textarea id="mensagem" name="mensagem" rows="7" cols="100" placeholder="Digite sua mensagem aqui..."></textarea><br><br>
 
           <label for="satisfacao">Nível de Satisfação:</label>
           <input id="satisfacao" type="range" name="satisfacao" min="1" max="5">
           <span id="valorSatisfacao">5</span><br><br>
-
-          <label for="mensagem">Como posso te ajudar?</label><br>
-          <textarea id="mensagem" name="mensagem" rows="7" cols="130" placeholder="Digite sua mensagem aqui..."></textarea><br><br>
 
           <input type="submit" value="Enviar">
           <input type="reset" value="Limpar">
@@ -138,5 +95,6 @@
     <p>2025 EcoSoul — Todos os direitos reservados. &copy; - Por todos os integrantes da equipe</p>
     </footer>
     <script src="../js/contato.js"></script>
+    <script src="../js/interacoes.js"></script>
 </body>
 </html>

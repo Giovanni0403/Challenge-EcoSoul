@@ -1,6 +1,10 @@
 const satisfacao = document.getElementById('satisfacao');
 const valorSatisfacao = document.getElementById('valorSatisfacao');
 
-satisfacao.addEventListener('input', function() {
+if (satisfacao && valorSatisfacao) {
+  valorSatisfacao.textContent = satisfacao.value;
+
+  satisfacao.addEventListener('input', function() {
     valorSatisfacao.textContent = this.value;
-});
+  });
+}
