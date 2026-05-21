@@ -1,45 +1,137 @@
-# Challenge-SoulUp
-EcoSoul
-Nós escolhemos o desafio 2, onde temos que achar uma forma do app da SoulUp se conectar junto com o transporte público. Vamos fazer com que, através dos km rodados pelo usuário em transporte público, ele automaticamente — por meio do GPS — faça um cálculo da economia de gás carbônico gerada, e com isso gere pontos para o usuário como recompensa.
+# EcoSoul - Challenge SoulUp
 
-Linguagens utilizadas - html, css, script
+## Descricao do projeto
 
-Os arquivos estao organizados atraves de pastas onde todos os css estao na pasta css todas as imagens estao em uma unica pasta, os html estao em apenas uma unica pagina so chamada (paginas) e a pagina principal esta de fora, e os scripts estao na paginas js.
+O EcoSoul e uma proposta de plataforma para incentivar o uso de transporte publico por meio de recompensas. A ideia e que o usuario utilize o app durante seus trajetos sustentaveis e, com base nos quilometros percorridos, receba pontos, beneficios e informacoes sobre o impacto ambiental positivo gerado.
 
-Integrantes- 
-Giovanni Lopez Zavam -rm571403  / 1TDSPH    
-GITHUB - https://github.com/Giovanni0403
-LINKEDIN -
+O projeto foi desenvolvido para a entrega de Front-End Design Engineering, com foco em estrutura HTML, estilizacao CSS, responsividade e interacoes com JavaScript.
 
-Murilo  Martins de Campos - rm572674 1TDSPH 
-GITHUB - https://github.com/Muale-0
-LINKEDIN - https://www.linkedin.com/in/murilo-martins-de-campos-573727410
+## Objetivo
 
-Arthur Palacio - rm573441 / 1TDSPH    
-GITHUB - https://github.com/ruhtradev10
-LINKEDIN - https://www.linkedin.com/in/arthur-palacio-alves-3911a13b3?utm_source=share_via&utm_content=profile&utm_medium=member_android
+Criar um site completo para apresentar a solucao EcoSoul, explicando o problema, a proposta, o funcionamento do app, os integrantes da equipe, perguntas frequentes e formas de contato.
 
-Thiago Andrade Silva Piedade - rm569741 / 1TDSPH 
-GITHUB - https://github.com/Euthiaguera
-LINKEDIN - https://www.linkedin.com/in/thiago-andrade-08b2b6321/
+## Tecnologias utilizadas
 
-IMAGENS DE FUNCIONAMENTO DO SISTEMA:
+- HTML5
+- CSS3
+- JavaScript
+- Git e GitHub
 
-LINK DO PROJETO: 
+## Estrutura de pastas
 
-CONTATO:
-Nome: Giovanni Lopez Zavam
-Telefone: (11) 99554-3365
-Email: rm571403@fiap.com.br
+```text
+Challenge-SoulUp/
+├── css/
+│   ├── app.css
+│   ├── base.css
+│   ├── cabecalho.css
+│   ├── index.css
+│   ├── integrantes.css
+│   ├── main.css
+│   └── responsive.css
+├── img/
+│   ├── logo.png
+│   ├── pagina_inicial.png
+│   ├── trajeto.png
+│   ├── impacto.png
+│   ├── perfil.png
+│   └── fotos dos integrantes
+├── js/
+│   ├── contato.js
+│   └── interacoes.js
+├── paginas/
+│   ├── app.html
+│   ├── contato.html
+│   ├── faq.html
+│   ├── integrante.html
+│   └── sobre.html
+├── index.html
+└── README.md
+```
 
-Nome: Murilo  Martins de Campos
-Telefone: (11) 99760-0533
-Email: rm572674@fiap.com.br
+## Paginas do site
 
-Nome: Arthur Palacio
-Telefone: (11) 98882-7148
-Email: rm573441@fiap.com.br
+- `index.html`: pagina inicial com apresentacao do projeto, beneficios e impacto.
+- `paginas/integrante.html`: identificacao da equipe com nome, RM, foto, GitHub e LinkedIn.
+- `paginas/sobre.html`: contexto do problema, proposta da solucao e diferenciais.
+- `paginas/faq.html`: perguntas frequentes sobre uso, pontos, validacao e impacto ambiental.
+- `paginas/contato.html`: formulario e informacoes de contato da equipe.
+- `paginas/app.html`: demonstracao das telas e funcionalidades principais do app.
 
-Nome: Thiago Andrade Silva Piedade
-Telefone: (11) 96088-8170
-Email: rm569741@fiap.com.br
+## Funcionalidades implementadas
+
+- Menu principal presente em todas as paginas.
+- Menu hamburguer para telas menores.
+- Layout responsivo para mobile, tablet e desktop.
+- Cards responsivos na pagina de integrantes.
+- Formulario de contato com campos obrigatorios.
+- Indicador de nivel de satisfacao com JavaScript.
+- Validacao visual dos campos do formulario.
+- Mascara automatica para telefone.
+- Animacoes de entrada ao rolar a pagina.
+- Botao para voltar ao topo.
+
+## Responsividade
+
+O projeto possui ajustes especificos para diferentes tamanhos de tela:
+
+- Mobile: menu hamburguer, conteudo em coluna e campos adaptados.
+- Tablet/iPad: menu hamburguer em telas menores e cards organizados em duas colunas quando necessario.
+- Desktop: logo e itens do menu alinhados lado a lado, com grids mais amplos.
+
+Os estilos responsivos estao concentrados no arquivo:
+
+```text
+css/responsive.css
+```
+
+## Integrantes
+
+### Giovanni Lopez Zavam
+
+- RM: 571403
+- Turma: 1TDSPH
+- GitHub: <https://github.com/Giovanni0403>
+- LinkedIn: preencher link
+
+### Murilo Martins de Campos
+
+- RM: 572674
+- Turma: 1TDSPH
+- GitHub: <https://github.com/Muale-0>
+- LinkedIn: <https://www.linkedin.com/in/murilo-martins-de-campos-573727410>
+
+### Arthur Palacio
+
+- RM: 573441
+- Turma: 1TDSPH
+- GitHub: <https://github.com/ruhtradev10>
+- LinkedIn: <https://www.linkedin.com/in/arthur-palacio-alves-3911a13b3>
+
+### Thiago Andrade Silva Piedade
+
+- RM: 569741
+- Turma: 1TDSPH
+- GitHub: <https://github.com/Euthiaguera>
+- LinkedIn: <https://www.linkedin.com/in/thiago-andrade-08b2b6321/>
+
+## Link do projeto
+
+Preencher com o link publico do repositorio no GitHub. ---------------
+
+## Imagens de funcionamento
+
+Adicionar prints do sistema em funcionamento: -----------------------------
+
+- Home em desktop.
+- Menu hamburguer em mobile/tablet.
+- Pagina de integrantes responsiva.
+- Pagina de contato com formulario.
+- Pagina App com telas da solucao.
+
+## Contato
+
+- Giovanni Lopez Zavam - rm571403@fiap.com.br
+- Murilo Martins de Campos - rm572674@fiap.com.br
+- Arthur Palacio - rm573441@fiap.com.br
+- Thiago Andrade Silva Piedade - rm569741@fiap.com.br
