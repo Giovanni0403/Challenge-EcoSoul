@@ -19,35 +19,39 @@ Criar um site completo para apresentar a solucao EcoSoul, explicando o problema,
 
 ## Estrutura de pastas
 
-```text
-Challenge-SoulUp/
-├── css/
-│   ├── app.css
-│   ├── base.css
-│   ├── cabecalho.css
-│   ├── index.css
-│   ├── integrantes.css
-│   ├── main.css
-│   └── responsive.css
-├── img/
-│   ├── logo.png
-│   ├── pagina_inicial.png
-│   ├── trajeto.png
-│   ├── impacto.png
-│   ├── perfil.png
-│   └── fotos dos integrantes
-├── js/
-│   ├── contato.js
-│   └── interacoes.js
-├── paginas/
-│   ├── app.html
-│   ├── contato.html
-│   ├── faq.html
-│   ├── integrante.html
-│   └── sobre.html
-├── index.html
-└── README.md
-```
+css/
+app.css
+base.css
+cabecalho.css
+index.css
+integrantes.css
+main.css
+responsive.css
+
+img-readme/
+todas as fotos de funcionamento do site
+
+img/
+logo.png
+pagina_inicial.png
+trajeto.png
+impacto.png
+perfil.png
+fotos dos integrantes
+
+js/
+contato.js
+interacoes.js
+
+paginas/
+app.html
+contato.html
+faq.html
+Integrante.html
+sobre.html
+index.html
+README.md
+
 
 ## Paginas do site
 
@@ -116,21 +120,16 @@ css/responsive.css
 - LinkedIn: <https://www.linkedin.com/in/thiago-andrade-08b2b6321/>
 
 ## Link do projeto
-
-Preencher com o link publico do repositorio no GitHub. ---------------
+https://github.com/Giovanni0403/Challenge-SoulUp
 
 ## Imagens de funcionamento
 
-Adicionar prints do sistema em funcionamento: -----------------------------
-
-- Home em desktop.
-- Menu hamburguer em mobile/tablet.
-- Pagina de integrantes responsiva.
-- Pagina de contato com formulario.
-- Pagina App com telas da solucao.
+![Home desktop](./img-readme/home-desktop.png)
+![Menu mobile](./img-readme/menu-mobile.png)
+![Integrantes tablet](./img-readme/integrantes-tablet.png)
+![Pagina de contato](./img-readme/contato.png)
 
 ## Contato
-
 - Giovanni Lopez Zavam - rm571403@fiap.com.br
 - Murilo Martins de Campos - rm572674@fiap.com.br
 - Arthur Palacio - rm573441@fiap.com.br
