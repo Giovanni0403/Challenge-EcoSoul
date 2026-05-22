@@ -24,7 +24,7 @@ if (formularioContato && feedbackContato) {
       return;
     }
 
-    feedbackContato.textContent = 'Mensagem enviada com sucesso! Em breve nossa equipe entrara em contato.';
+    feedbackContato.textContent = 'Mensagem enviada com sucesso! Em breve nossa equipe entrará em contato.';
     feedbackContato.className = 'feedback-contato feedback-contato--sucesso';
     formularioContato.reset();
 

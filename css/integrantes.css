@@ -27,7 +27,6 @@
 /* Destaque visual ao passar o mouse */
 .card:hover{
     box-shadow: 1px 1px 20px rgb(0, 4, 255);  
-
 }
 
 /* Foto do integrante */

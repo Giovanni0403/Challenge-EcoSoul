@@ -100,8 +100,9 @@ main {
   color: #ffffff;
   font-size: clamp(1rem, 2.5vw, 1.55rem);
   line-height: 1.55;
-  margin: 1rem auto 2rem;
+  margin: 1rem 0 2rem;
   max-width: 980px;
+  padding-left: 2rem;
 }
 
 .fluxo-solucao li {
