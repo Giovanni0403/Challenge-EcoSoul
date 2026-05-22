@@ -13,18 +13,4 @@
   height: 100%;
 }
 
-.cabecalho__lista {
-  display: flex;
-  justify-content: center;
-}
 
-/* Links do menu */
-.cabecalho__link{
-    color: #000000;
-}
-
-/* Logo principal do projeto */
-.logo{
-    width: 400px;
-    height: 150px;
-}
